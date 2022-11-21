@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   containerLogo: {
-    backgroundColor: "green",
+    backgroundColor: "#252525",
   },
 
   logo: {
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     width: 80,
   },
   containerMovie: {
-    backgroundColor: "gray",
+    backgroundColor: "#191919",
     marginBottom: 15,
   },
   title: {
@@ -64,7 +64,8 @@ const styles = StyleSheet.create({
   },
 
   containerActors: {
-    backgroundColor: "gray",
+    backgroundColor: "#191919",
+    paddingVertical: 10,
   },
   containerActorsPic: {
     flexDirection: "row",
@@ -75,12 +76,13 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignContent: "center",
     marginHorizontal: 5,
-    backgroundColor: "blue",
+    backgroundColor: "#0f0f0f",
   },
 
   actorPic: {
     height: 200,
     width: 140,
+    marginBottom: 5,
   },
 
   color: {
@@ -92,6 +94,7 @@ const styles = StyleSheet.create({
     fontSize: "20",
   },
   credits: {
+    backgroundColor: "#191919",
     height: 100,
     justifyContent: "space-between",
     marginTop: 10,

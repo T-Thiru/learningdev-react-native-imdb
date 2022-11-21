@@ -27,7 +27,9 @@ export default function App() {
           </View>
           <View style={styles.containerMovie}>
             <Text style={styles.title}>Interstellar</Text>
-            <Text>2014 PG-13 2h49min Adventure, Drama, Sci-Fic</Text>
+            <Text style={styles.color}>
+              2014 PG-13 2h49min Adventure, Drama, Sci-Fic
+            </Text>
             <View style={styles.containerDetail}>
               <Image
                 source={film}
@@ -35,13 +37,13 @@ export default function App() {
                 resizeMode="contain"
               ></Image>
               <View style={styles.text}>
-                <Text>
+                <Text style={styles.color}>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Voluptatum molestias eum omnis ea ullam, sint ad ipsa dolor
                   incidunt eos! Maxime
                 </Text>
                 <TouchableOpacity style={styles.button}>
-                  <Text style={{ textAlign: "center" }}>
+                  <Text style={{ textAlign: "center", color: "white" }}>
                     + ADD TO WHATCHLIST
                   </Text>
                 </TouchableOpacity>
@@ -84,10 +86,14 @@ export default function App() {
                     style={styles.actorPic}
                     resizeMode="center,cover"
                   ></Image>
-                  <Text numberOfLines={1} ellipsizeMode={"tail"}>
+                  <Text
+                    numberOfLines={1}
+                    ellipsizeMode={"tail"}
+                    style={styles.color}
+                  >
                     Matthew McConaughey
                   </Text>
-                  <Text>Cooper</Text>
+                  <Text style={styles.color}>Cooper</Text>
                 </View>
                 <View style={styles.actorsDetail}>
                   <Image
@@ -95,8 +101,8 @@ export default function App() {
                     style={styles.actorPic}
                     resizeMode="center,cover"
                   ></Image>
-                  <Text>Anne Hathaway</Text>
-                  <Text>Brand</Text>
+                  <Text style={styles.color}>Anne Hathaway</Text>
+                  <Text style={styles.color}>Brand</Text>
                 </View>
                 <View style={styles.actorsDetail}>
                   <Image
@@ -104,8 +110,8 @@ export default function App() {
                     style={styles.actorPic}
                     resizeMode="center , cover"
                   ></Image>
-                  <Text>Jessica Chastain</Text>
-                  <Text>Murph</Text>
+                  <Text style={styles.color}>Jessica Chastain</Text>
+                  <Text style={styles.color}>Murph</Text>
                 </View>
                 <View style={styles.actorsDetail}>
                   <Image
@@ -113,8 +119,8 @@ export default function App() {
                     style={styles.actorPic}
                     resizeMode="center,cover"
                   ></Image>
-                  <Text>Mackenzie Foy</Text>
-                  <Text>Murph 10ans</Text>
+                  <Text style={styles.color}>Mackenzie Foy</Text>
+                  <Text style={styles.color}>Murph 10ans</Text>
                 </View>
               </View>
             </ScrollView>
