@@ -11,7 +11,8 @@ const styles = StyleSheet.create({
   },
 
   logo: {
-    height: 80,
+    marginLeft: 10,
+    height: 60,
     width: 80,
   },
   containerMovie: {
@@ -72,16 +73,16 @@ const styles = StyleSheet.create({
   },
 
   actorsDetail: {
-    width: 140,
+    width: 150,
     justifyContent: "center",
     alignContent: "center",
-    marginHorizontal: 5,
+    marginHorizontal: 10,
     backgroundColor: "#0f0f0f",
   },
 
   actorPic: {
     height: 200,
-    width: 140,
+    width: 150,
     marginBottom: 5,
   },
 

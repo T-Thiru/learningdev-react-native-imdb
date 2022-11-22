@@ -16,6 +16,7 @@ import film from "./assets/film.jpg";
 export default function App() {
   return (
     <SafeAreaView style={styles.areaView}>
+      <StatusBar style="light" />
       <ScrollView>
         <View>
           <View style={styles.containerLogo}>
